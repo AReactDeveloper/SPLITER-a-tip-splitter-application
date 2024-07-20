@@ -1,0 +1,143 @@
+/* Reset the box-sizing model to include padding and border in the element's total width and height */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin and padding */
+body,
+h1, h2, h3, h4, h5, h6,
+p, ul, ol, dl,
+dt, dd,
+figure, blockquote,
+pre, hr, address,
+table, th, td,
+form, fieldset, legend,
+input, textarea, button, select, option {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a consistent font size for body text */
+body {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Remove default list styles */
+ul, ol {
+  list-style: none;
+}
+
+/* Remove default border for tables */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Remove default border styles */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove default input styles */
+input, textarea, button, select {
+  font: inherit; /* Ensure form elements inherit font styles from the parent element */
+  line-height: inherit; /* Ensure line-height is consistent */
+  border: 1px solid #ccc; /* Default border */
+  border-radius: 4px; /* Default border radius */
+  background: #fff; /* Default background */
+  color: #000; /* Default text color */
+  padding: 0.5em; /* Default padding */
+  &:focus{
+    outline: none;
+  }
+}
+
+input,label{
+  display: block;
+  width: 100%;
+}
+
+/* Remove default background and border for buttons */
+button, input[type="button"], input[type="submit"], input[type="reset"] {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Remove default text decoration from links */
+a {
+  text-decoration: none;
+  color: inherit; /* Inherit color from the parent element */
+}
+
+/* Remove default quotation styles */
+blockquote, q {
+  quotes: none;
+}
+
+/* Remove default table cell spacing */
+td, th {
+  padding: 0;
+  vertical-align: baseline;
+}
+
+/* Provide a basic reset for images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Ensure that the scrollbar does not cause layout shift */
+html {
+  overflow-x: hidden;
+}
+
+/* Ensure that all elements use the same line height */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+/* Reset styles for common form elements */
+select {
+  -webkit-appearance: none; /* Remove default styling in WebKit browsers */
+  -moz-appearance: none; /* Remove default styling in Firefox */
+  appearance: none; /* Remove default styling */
+}
+
+/* Reset styles for progress elements */
+progress {
+  display: inline-block;
+}
+
+/* Basic styles for table layout */
+table {
+  width: 100%;
+}
+
+/* Reset styles for the ::placeholder pseudo-element */
+::placeholder {
+  color: #999;
+  opacity: 1; /* For consistency across browsers */
+}
+
+/* Reset styles for scrollbars (WebKit browsers) */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

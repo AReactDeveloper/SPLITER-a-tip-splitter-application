@@ -1,0 +1,61 @@
+@use "root";
+@use "reset";
+@use "normalize";
+@use "base";
+
+.wrapper{
+    max-width: 950px;
+    &__logo{
+        text-align: center;
+        margin-block: var(--spacing-xlarge);
+    }
+    &__inner{
+        color: var(--clr-custom-200);
+        background-color: white;
+        padding: var(--spacing-xxlarge) var(--spacing-xlarge);
+        display: grid;
+        gap: var(--spacing-xlarge);
+        border-radius: var(--border-radius-wrapper);
+        &__input{
+            display: grid;
+            gap: var(--spacing-xlarge);
+        }
+        &__output{
+            background-color: var(--clr-primary-900);
+            color: var(--clr-accent-100);
+            padding: var(--spacing-large) ;
+            border-radius: var(--border-radius-wrapper);
+            display: flex;
+            flex-direction: column;
+            gap: var(--spacing-large);
+            &__item{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                justify-content: space-between;
+                & h2{ //the ammount in dollars
+                    font-size: var(--fs-xlarge);
+                    color: var(--clr-custom-300);
+                    font-weight: var(--fw-bold);
+                }
+                & h3{ //amount title
+                    font-size: var(--fs-large);
+                    font-weight: var(--fw-bold);
+                }
+                & p{
+                    color: var(--clr-primary-500);
+                }
+                & > div:last-child{
+                    text-align: right;                 
+                }
+            }
+            //output
+        }
+        @media (min-width:1000px){
+            grid-template-columns: 1fr 1fr;
+        }
+        //inner
+    }
+    //wrapper
+    
+}
+

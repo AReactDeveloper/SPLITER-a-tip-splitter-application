@@ -1,0 +1,85 @@
+:root {
+    /* Primary Color */
+    --clr-primary-900: hsl(183, 100%, 15%); /* Very dark cyan */
+    /* Not ncluded in style guide */
+    --clr-primary-500: hsl(185, 42%, 84%); /* Regular cyan */
+
+  
+    /* Secondary Colors */
+    --clr-secondary-700: hsl(186, 14%, 43%); /* Dark grayish cyan */
+    --clr-secondary-500: hsl(184, 14%, 56%); /* Grayish cyan */
+  
+    /* Accent Colors */
+    --clr-accent-300: hsl(185, 41%, 84%); /* Light grayish cyan */
+    --clr-accent-100: hsl(189, 41%, 97%); /* Very light grayish cyan */
+  
+    /* Neutral Colors */
+    --clr-neutral-100: hsl(0, 0%, 100%); /* White */
+
+  
+    /* Neutral Colors */
+    --clr-neutral-100: hsl(0, 0%, 98%); /* Very light gray (close to white) */
+    --clr-neutral-200: hsl(0, 0%, 90%); /* Light gray */
+    --clr-neutral-300: hsl(0, 0%, 80%); /* Gray */
+    --clr-neutral-400: hsl(0, 0%, 60%); /* Medium gray */
+    --clr-neutral-500: hsl(0, 0%, 50%); /* Neutral gray */
+    --clr-neutral-600: hsl(0, 0%, 40%); /* Dark gray */
+    --clr-neutral-700: hsl(0, 0%, 30%); /* Darker gray */
+    --clr-neutral-800: hsl(0, 0%, 20%); /* Very dark gray */
+    --clr-neutral-900: hsl(0, 0%, 10%); /* Black */
+
+   /* other colors */
+   --clr-custom-100:hsl(202, 50%, 97%);
+   --clr-custom-200:hsl(188, 7%, 41%);
+   --clr-custom-300:hsl(172, 67%, 45%);
+
+    /* Base Colors */
+    --clr-white: hsl(0, 0%, 100%); /* White */
+    --clr-black: hsl(0, 0%, 0%);   /* Black */
+  
+    /* Font Sizes */
+    --fs-base: 1rem; /* 16px */
+    --fs-heading: 1.5rem; /* 24px */
+    --fs-large: 1.125rem; /* 18px */
+    --fs-xlarge: 1.875rem; /* 30px */
+    --fs-medium: 1rem; /* 16px */
+    --fs-small: 0.875rem; /* 14px */
+  
+    
+    
+    /* Font Weights */
+    --fw-normal: 400;
+    --fw-bold: 700;
+    
+    /* font familly */
+    --ff-base: "Space Mono", monospace;
+
+    /* Spacing */
+    --spacing-small: 0.5rem; /* 8px */
+    --spacing-medium: 1rem; /* 16px */
+    --spacing-large: 1.5rem; /* 24px */
+    --spacing-xlarge: 1.875rem; /* 30px */
+    --spacing-xxlarge: 2.5rem; /* 40px */
+  
+    /* Borders */
+    --border-radius-small: 0.25rem; /* 4px */
+    --border-radius-medium: 0.5rem; /* 8px */
+    --border-radius-large: 0.75rem; /* 12px */
+    --border-radius-wrapper: 1.25rem; /* 20px */
+  
+    /* Box Shadows */
+    --box-shadow-small: 0 1px 2px rgba(0, 0, 0, 0.1);
+    --box-shadow-medium: 0 2px 4px rgba(0, 0, 0, 0.2);
+    --box-shadow-large: 0 4px 8px rgba(0, 0, 0, 0.3);
+  
+    /* Transitions */
+    --transition-fast: 0.2s ease;
+    --transition-medium: 0.3s ease;
+    --transition-slow: 0.5s ease;
+  
+    /* Z-Index */
+    --z-index-overlay: 1000;
+    --z-index-modal: 2000;
+    --z-index-tooltip: 3000;
+  }
+  
