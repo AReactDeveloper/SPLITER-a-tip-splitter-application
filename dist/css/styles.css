@@ -469,6 +469,11 @@ body {
   grid-template-columns: 1fr 1fr;
   gap: 10px;
 }
+@media (min-width: 1000px) {
+  .form-group__tips {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
 
 .label-holder {
   display: flex;
